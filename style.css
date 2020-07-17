@@ -400,13 +400,16 @@ h4.sm-title{
 }
 .research-img{
     height: 150px;
-    width: 150px;
+    width: 200px;
     border-radius: 5px;
     overflow: hidden;
     margin: auto;
 }
 .research-img img{
     height: 100%;
+}
+.research-img-1{
+    transform: translateX(-50px);
 }
 /* illustration-style */
 .gallery-img{

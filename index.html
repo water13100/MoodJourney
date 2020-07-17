@@ -19,7 +19,7 @@
                         <a class="nav-item" href="#introduction">Introduction</a>
                         <a class="nav-item" href="#research">Research</a>
                         <a class="nav-item" href="#illustration">Illustration</a>
-                        <a class="nav-item right" href="index.html">Back to Portfolio</a>
+                        <a class="nav-item right" href="https://water13100.github.io/water13100.github.io/">Back to Portfolio</a>
 
                     </div>
         </nav>
@@ -129,29 +129,29 @@
             
             <!-- Research -->
 
-            <div id="research" class="contanier h-100vh">
+            <div id="research" class="contanier">
                 <h1 class="m-title-e left">Research</h1>
-                <h2 class="m-title-c left">使用者研究 <img class="left arrow-img-2" src="images/arrow2.png" alt=""></h2>
+                <h2 class="m-title-c left">使用者體驗研究 <img class="left arrow-img-2" src="images/arrow2.png" alt=""></h2>
                 <div class="row pt-60px">
                     <div class="col-sm-4">
-                        <div class="research-img"> <img src="images/research-3.jpg" alt=""></div>
+                        <div class="research-img"> <img class="research-img-1" src="images/research-4.png" alt=""></div>
 
-                        <h5>場域觀察與訪談</h5>
+                        <h5>使用者洞察：場域觀察與訪談</h5>
 
-                        <p>研究者使用參與式觀察法1年蒐集雲科大諮商中心之現況資料，並邀請3位學校輔導老師，以及5位有參與諮商服務經驗學生訪談。</p>
+                        <p>邀請學校輔導老師以及學生訪談，發現大學生在遇到心理狀況意圖求助時，最大的痛點於諮商中心預約繁瑣，及與諮商老師溝通困難，影響學生求助意願與諮商成效。</p>
                     </div>
                     <div class="col-sm-4">
-                        <div class="research-img"> <img src="images/research-2.jpg" alt=""></div>
+                        <div class="research-img"> <img class="center" src="images/research-3.jpg" alt=""></div>
 
-                        <h5>介面與心理專家評估</h5>
+                        <h5>設計與評估：介面與心理專家評估</h5>
 
-                        <p>評估設計功能與使用性是否符合設計準則，邀請專家評估介面整體功能與使用性，並邀請心理背景專家評估可行性。</p>
+                        <p>以幫助學生溝通，及諮商老師掌握學生狀況為目標設計，並邀請專家評估介面整體功能與使用性，並邀請心理背景專家評估可行性。</p>
                     </div>
                     <div class="col-sm-4">
-                        <div class="research-img"> <img src="images/research-1.jpg" alt=""></div>
+                        <div class="research-img"> <img class="center" src="images/research-1.jpg" alt=""></div>
 
-                        <h5>大學生與諮商老師實際測試與意見回饋</h5>
-                        <p>邀請3位諮商中心老師，6位有諮商經驗的學生進行使用性之測試。</p>
+                        <h5>使用性測試：大學生與諮商老師測試</h5>
+                        <p>邀請3位諮商中心老師，6位有諮商經驗的學生進行測試。學生與老師皆認為學生版功能，能夠補足現有系統缺乏的師生即時溝通聯絡、心情傳遞與回饋。</p>
                     </div>
                 </div>
             </div>
@@ -225,36 +225,36 @@ $("#blue-mood-icon").click(function(){
 
 now = new Date();
 $(window).scroll(function(){
-    last=$("#illustration").height()
+    last=$("header").height() + $("#introduction").height() + $("#brand").height() + $("#research").height() + $("#illustration").height()
     if($(window).scrollTop()>=last){
         function time1(){
        $("#time1").css("opacity", 1);
     }
-    setInterval(time1, 0000);
+    setInterval(time1, 1000);
     function time2(){
        $("#time2").css("opacity", 1);
     }
-    setInterval(time2, 1000);
+    setInterval(time2, 2000);
     function time3(){
        $("#time3").css("opacity", 1);
     }
-    setInterval(time3, 2000);
+    setInterval(time3, 3000);
     function time4(){
        $("#time4").css("opacity", 1);
     }
-    setInterval(time4, 3000);
+    setInterval(time4, 4000);
     function time5(){
        $("#time5").css("opacity", 1);
     }
-    setInterval(time5, 4000);
+    setInterval(time5, 5000);
     function time6(){
        $("#time6").css("opacity", 1);
     }
-    setInterval(time6, 5000);
+    setInterval(time6, 6000);
     function time7(){
        $("#time7").css("opacity", 1);
     }
-    setInterval(time7, 6000);
+    setInterval(time7, 7000);
 
     }
 })
