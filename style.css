@@ -247,7 +247,7 @@ width: 90%;
     height: 100%;
     width: 100%;
     /* overflow: hidden; */
-    background-image: url(../m10732003-4/images/blue-desert.png);
+    background-image: url(../MoodJourney/images/blue-desert.png);
     background-size: cover;
     z-index: 2;  
     transition: 1s;
@@ -257,7 +257,7 @@ width: 90%;
     height: 100%;
     width: 100%;
     /* overflow: hidden; */
-    background-image: url(../m10732003-4/images/green-desert.png);
+    background-image: url(../MoodJourney/images/green-desert.png);
     background-size: cover;
     z-index: 2;  
     transition: 1s;
@@ -267,7 +267,7 @@ width: 90%;
     height: 100%;
     width: 100%;
     /* overflow: hidden; */
-    background-image: url(../m10732003-4/images/yellow-desert.png);
+    background-image: url(../MoodJourney/images/yellow-desert.png);
     background-size: cover;
     z-index: 2;  
     transition: 1s;
@@ -277,7 +277,7 @@ width: 90%;
     height: 100%;
     width: 100%;
     /* overflow: hidden; */
-    background-image: url(../m10732003-4/images/orange-desert.png);
+    background-image: url(../MoodJourneyimages/orange-desert.png);
     background-size: cover;
     z-index: 2;  
     transition: 1s;
