@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+	<script src="xeogl/xeogl.js"></script>
+	<script src="xeogl/js/models/glTFModel.js"></script>
+	<script src="xeogl/vcd2266.js"></script>
+	<title>xeogl - Examples</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Overlock+SC&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Exo+2:400,800,900,700,600,500|Roboto:100,300,400,500,700,900'
+          rel='stylesheet' type='text/css'>
+	<link href="0611.css" rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body class="body-style">
+	<nav class="top-bar">
+        <img class="logo" src="images/logo.png" alt="">
+        <div class="top-nav-bar">
+			<a class="nav-item" href="index.html">Home</a>
+        <a class=" nav-item" href="brand.html">Brand</a>
+                    <a class="nav-item" href="product.html">Product</a>
+                    <a class="nav-item" href="gallery.html">Gallery</a>
+                    <a class="nav-item" href="author.html">Author</a>
+                </div>
+    </nav>
+	</div>
+	<canvas id="myCanvas" ></canvas>
+	<script>
+		var scene = new xeogl.Scene({
+        	canvas: "myCanvas",
+        	transparent: true
+		   });
+		xeogl.setDefaultScene(scene);
+
+
+		var dish = new xeogl.GLTFModel({
+			id: "dish",
+			src: "3d123-1/3d123.gltf",
+			position: [0, -2, 0],
+			rotation: [0, 0, 0],
+			scale: [20, 20, 20]
+		});
+
+		var cameraControl = new xeogl.CameraControl();
+
+		scene.on("tick", function () {
+			var camera = scene.camera;
+			camera.orbitYaw(0.1);
+			//camera.orbitPitch(0.1);
+		});
+		var cameraControl = new xeogl.CameraControl();
+
+		kk.on("loaded", function() {
+            var cameraFlight = new xeogl.CameraFlightAnimation();
+            cameraFlight.flyTo(kk);
+		});
+
+		var scene = xeogl.getDefaultScene();
+
+    
+
+   
+		
+	</script>
+</body>
+</html>

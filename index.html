@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+    <header  class="all-style">
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Mood Journey App</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <!-- <script src="jquery.js"></script> -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2?family=Overlock+SC&display=swap" rel="stylesheet">
+        <nav class="top-bar">
+            <img class="logo" src="images/logo.png" alt="">
+            <div class="top-nav-bar">
+                        <a class=" nav-item" href="#brand">Brand</a>
+                        <a class="nav-item" href="#introduction">Introduction</a>
+                        <a class="nav-item" href="#research">Research</a>
+                        <a class="nav-item" href="#illustration">Illustration</a>
+                        <a class="nav-item right" href="index.html">Back to Portfolio</a>
+
+                    </div>
+        </nav>
+        <div class="container">
+            <div class="row h-100vh">
+                <div class="col-sm-6 center">
+            <div class="big-title">
+                <h1 class="big-title-e">Mood Journey</h1>
+                <h2 class="big-title-c">心情之旅</h2>
+                <img class="arrow-img" src="images/arrow.png" alt="">
+                <h5 class="">你今天好嗎？選擇心情：</h5>
+                <div class="center">
+                    <div class="mood-btn mood-orange" id="orange-mood-icon"><img class="mood-icon" src="images/big-smile.png" alt=""></div>
+                    <div class="mood-btn mood-yellow" id="yellow-mood-icon"><img class="mood-icon" src="images/smile.png" alt=""></div>
+                    <div class="mood-btn mood-green" id="green-mood-icon"><img class="mood-icon" src="images/sad.png" alt=""></div>
+                    <div class="mood-btn mood-blue" id="blue-mood-icon"><img class="mood-icon" src="images/big-sad.png" alt=""></div>
+                </div>
+             </div> 
+            </div> 
+            <div class="col-sm-6 center">
+                <div class="phone center">
+                 <div class="phone-crl"> </div>
+                    <div class="app-img"> 
+                        <div class="blue-derest" id="derest"> </div>
+                    <div class="sky blue-sky" id="sky"> </div> 
+                    <img class="star" src="images/star.png" alt="">
+                        <img class="sun" id="sun" src="images/sun.png" alt="">
+                    </div>
+                 </div>
+            </div> 
+         </div>
+        </div>
+    </header>
+    <body class="all-style">
+            <!-- //brand -->
+            <div id="brand" class="container">
+                <h1 class="m-title-e left">Brand</h1>
+                <h2 class="m-title-c left">品牌緣起  <img class="left arrow-img-2" src="images/arrow2.png" alt=""></h2>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h5 class="left">專為大學生設計，守護你的心理健康。</h5>
+                        <p>
+                            董氏基金會(2007)調發現需專業協助的大學生約佔25%，且人數逐年上升。但由於少子化的衝擊，大學經費縮減，雖需協助的學生越來越多，但諮商中心人力不足，大學生心理健康服務仍須改善。
+                            因此Ｍood Journey 以輔助大學生心理健康為目標，專為大學生設計心理健康APP。
+                        </p>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="talk-img">
+                        <img  src="images/talk.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+             <!-- Introduction -->
+            <div id="introduction" class="container">
+                <h1 class="m-title-e left">Introduction</h1>
+                <h2 class="m-title-c left">功能介紹</h2>
+                <div class="row  center">
+                    <div class="col-sm-6 ">
+                        <h4 class="sm-title ">
+                                簡單小遊戲心情紀錄
+                        </h4>
+                        <p>簡單心情記錄和評估，
+                            幫助你收藏你的點點滴滴。
+                            </p>    
+                            <img class="word-img" src="images/01.png" alt=""> 
+                    </div>
+                    <div class="col-sm-6"> 
+                        <img class="ui-img" src="images/05.png" alt="">      
+                    </div>          
+                </div>
+            </div>
+            <div class="container pt-60px">
+                <div class="row  center">
+                    
+                    <div class="col-sm-6"> 
+                        <img class="ui-img" src="images/08.png" alt="">      
+                    </div>
+                    <div class="col-sm-6 ">
+                        <h4 class="sm-title ">
+                             隨時預約學校諮商中心
+                        </h4>
+                        <p>
+                            隨時隨地預約學校諮商中心晤談，
+                            成為你的最佳後援。  
+                         </p>  
+                            <img class="word-img" src="images/03.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="container pt-60px">
+                <div class="row center">
+                    
+                    <div class="col-sm-6 ">
+                        <h4 class="sm-title ">
+                            與老師共享諮商塗鴉牆
+                        </h4>
+                    <p class="center">與諮商老師共享秘密塗鴉牆，
+                            訊息溝通無壓力。                </p>
+
+                            <img class="word-img" src="images/02.png" alt="">
+                    </div>
+                    <div class="col-sm-6"> 
+                        <img class="ui-img" src="images/07.png" alt="">      
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Research -->
+
+            <div id="research" class="contanier h-100vh">
+                <h1 class="m-title-e left">Research</h1>
+                <h2 class="m-title-c left">使用者研究 <img class="left arrow-img-2" src="images/arrow2.png" alt=""></h2>
+                <div class="row pt-60px">
+                    <div class="col-sm-4">
+                        <div class="research-img"> <img src="images/research-3.jpg" alt=""></div>
+
+                        <h5>場域觀察與訪談</h5>
+
+                        <p>研究者使用參與式觀察法1年蒐集雲科大諮商中心之現況資料，並邀請3位學校輔導老師，以及5位有參與諮商服務經驗學生訪談。</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="research-img"> <img src="images/research-2.jpg" alt=""></div>
+
+                        <h5>介面與心理專家評估</h5>
+
+                        <p>評估設計功能與使用性是否符合設計準則，邀請專家評估介面整體功能與使用性，並邀請心理背景專家評估可行性。</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="research-img"> <img src="images/research-1.jpg" alt=""></div>
+
+                        <h5>大學生與諮商老師實際測試與意見回饋</h5>
+                        <p>邀請3位諮商中心老師，6位有諮商經驗的學生進行使用性之測試。</p>
+                    </div>
+                </div>
+            </div>
+            <!-- //Illustration -->
+
+            <div id="illustration" class="contanier">
+                <h1 class="m-title-e center">Illustration</h1>
+                <h2 class="m-title-c center">插畫設計</h2>
+                <h5>精美的介面插畫，每次紀錄心情都是驚喜。</h5>
+                <div class="row center">
+                    <div class="gallery-box h-100vh">
+                    <img id="time1" class="gallery-img" src="images/gallery_01.png" alt="">
+                    <img id="time2" class="gallery-img" src="images/gallery_02.png" alt="">
+                    <img id="time3" class="gallery-img" src="images/gallery_03.png" alt="">
+                    <img id="time4" class="gallery-img" src="images/gallery_04.png" alt="">
+                    <img id="time5" class="gallery-img" src="images/gallery_05.png" alt="">
+                    <img id="time6" class="gallery-img" src="images/gallery_06.png" alt="">
+                    <img id="time7" class="gallery-img" src="images/gallery_07.png" alt="">
+                </div>
+                </div>
+            </div>
+    </body>
+    <footer>
+                    <!-- other pages-->
+
+    </footer>
+</html>
+<script>
+$("#orange-mood-icon").click(function(){
+    $("#derest").removeClass("green-derest")
+    $("#derest").removeClass("blue-derest")
+    $("#derest").removeClass("yellow-derest")
+    $("#derest").addClass("orange-derest")
+    $("#sky").removeClass("green-sky")
+    $("#sky").removeClass("blue-sky")
+    $("#sky").removeClass("yellow-sky")
+    $("#sky").addClass("orange-sky")  
+});
+$("#yellow-mood-icon").click(function(){
+//   $(".sky").css("background-image","url"+"("+"https://i.imgur.com/tpDug34.png"+")")
+    $("#derest").removeClass("blue-derest")
+    $("#derest").removeClass("green-derest")
+    $("#derest").removeClass("orange-derest")
+    $("#derest").addClass("yellow-derest")
+    $("#sky").removeClass("blue-sky")
+    $("#sky").removeClass("orange-sky")
+    $("#sky").removeClass("green-sky")
+    $("#sky").addClass("yellow-sky")  
+});
+$("#green-mood-icon").click(function(){
+    $("#derest").removeClass("blue-derest")
+    $("#derest").addClass("green-derest")
+    $("#derest").removeClass("orange-derest")
+    $("#derest").removeClass("yellow-derest")
+    $("#sky").removeClass("orange-sky")
+    $("#sky").removeClass("yellow-sky")
+    $("#sky").removeClass("blue-sky")
+    $("#sky").addClass("green-sky")  
+
+});
+$("#blue-mood-icon").click(function(){
+    $("#derest").removeClass("green-derest")
+    $("#derest").removeClass("orange-derest")
+    $("#derest").removeClass("yellow-derest")
+    $("#derest").addClass("blue-derest")
+    $("#sky").removeClass("green-sky")
+    $("#sky").removeClass("orange-sky")
+    $("#sky").removeClass("yellow-sky")
+    $("#sky").addClass("blue-sky")  
+});
+
+now = new Date();
+$(window).scroll(function(){
+    last=$("#illustration").height()
+    if($(window).scrollTop()>=last){
+        function time1(){
+       $("#time1").css("opacity", 1);
+    }
+    setInterval(time1, 0000);
+    function time2(){
+       $("#time2").css("opacity", 1);
+    }
+    setInterval(time2, 1000);
+    function time3(){
+       $("#time3").css("opacity", 1);
+    }
+    setInterval(time3, 2000);
+    function time4(){
+       $("#time4").css("opacity", 1);
+    }
+    setInterval(time4, 3000);
+    function time5(){
+       $("#time5").css("opacity", 1);
+    }
+    setInterval(time5, 4000);
+    function time6(){
+       $("#time6").css("opacity", 1);
+    }
+    setInterval(time6, 5000);
+    function time7(){
+       $("#time7").css("opacity", 1);
+    }
+    setInterval(time7, 6000);
+
+    }
+})
+
+    
+
+</script>
