@@ -1,9 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Jua&subset=korean');
 *{
     /* border: solid 1px;     */
+    font-family: 'Noto Sans', sans-serif;
+
 }
+
 /* height 100vh */
 .h-100vh{
     height: 100vh;
+}
+.mt-60px{
+    margin-top: 60px;
+}
+.mt-200px{
+    margin-top: 100px;
 }
 .pt-60px{
     padding-top: 60px;
@@ -44,6 +55,7 @@
 h2, h3, h4, h5,p{
     color:#fff;
     letter-spacing: 2px;
+    font-family: 'Noto Sans', sans-serif;
 
 }
 h5{
@@ -71,7 +83,7 @@ img{
     
 }
 .big-title{
-font-family: 'Overlock SC';
+font-family: Overlock SC;
 position: absolute;
 top:50%;
 transform: translateY(-50%);
@@ -101,14 +113,14 @@ color: #FFA339;
     color: #FFA339;
 }
 .m-title-e{
-    margin-top: 160px;
+    margin-top: 100px;
     /* position: absolute;
     left: 0px; */
     font-family: Overlock SC;
     font-style: normal;
     font-weight: normal;
-    font-size: 60px;
-    line-height: 73px;
+    font-size: 48px;
+    line-height: 56px;
     letter-spacing: 1px;
     /* 橘色 */
     color: #FFA339;
@@ -123,6 +135,7 @@ line-height: 44px;
 letter-spacing: 10px;
 color: #FFA339;
 }
+
 .hr{
 width: 33px;
 height: 4px;
@@ -130,6 +143,7 @@ background: #FFA339;
 }
 
 /* nav */
+
 .nav-bar{
 width: 100%;
  position: absolute;
@@ -158,6 +172,7 @@ width: 100%;
 
 }
 /* header */
+
 .arrow-img{
     width: 10%;
     padding: 2%;
@@ -191,7 +206,6 @@ width: 90%;
 }
 
 .phone{
-    /* height: 80%; */
     background: #595959;
     border-radius: 30px;
     height: 700px;
@@ -353,6 +367,7 @@ left: 20%;
 .top-bar{
     position: fixed;
     width: 100%;
+    height: 60px;
     background:rgba(64, 60, 60, 0.5);
     z-index: 1;
 }
@@ -370,14 +385,21 @@ left: 20%;
 /* brand-style */
 
 #brand{
-    height: 400px;
+    height: 600px;
 }
+#brand .m-title-c{
+    margin-top: 200px;
+    }
 .talk-img{
-    height: 80%;
+    height: 60%;
 }
 .talk-img img{
     height: 100%;
 
+}
+.word-box{
+    width: 600px;
+    margin: auto;
 }
 /* Introduction */
 .word-img{
@@ -418,9 +440,104 @@ h4.sm-title{
     opacity: 0.5;
     transition: 0.4s;
     
+    
 }
 .gallery-box{
     height: 500px;
 }
+/* footer */
+#footer-p{
+    font-size: 14px;
+    text-align: center;
+  
+  }
+  .other-work-box{
+    height: 100%;
+    width: 100%;
+  }
+  .crl-box{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  .crl-box-img{
+    height: 120px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+  }
 
+/* /----------* @media *------------/  */
 
+@media(max-width: 768px){	
+	
+	
+	.phone{
+        background: #595959;
+        border-radius: 18px;
+        height: 420px;
+        width: 205px;
+        transform: translateY(10%);
+        
+    }
+
+        .big-title-e{
+            font-size: 40px;
+            line-height: 48px;
+            letter-spacing: 0.2px;
+         
+        }
+        .big-title-c{
+            font-size: 32px;
+            line-height: 40px;
+            letter-spacing: 12px;
+
+        }
+      
+}
+@media(max-width: 480px){
+    
+    .phone{
+        position: absolute;
+        top:-30%;
+    }
+
+        .big-title-e{
+            font-size: 36px;
+            line-height: 40px;
+            letter-spacing: 0.2px;
+         
+        }
+        .big-title-c{
+            font-size: 24px;
+            line-height: 32px;
+            letter-spacing: 12px;
+
+        }
+	
+        .m-title-e{
+           
+            font-size: 28px;
+            line-height: 36px;
+            letter-spacing: 0.5px;
+            /* 橘色 */
+            color: #FFA339;
+        }
+        .m-title-c{
+        margin-top: 16px;
+        font-family: Overlock SC;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 36px;
+        letter-spacing: 1px;
+        color: #FFA339;
+        }
+    .word-box{
+        width: 300px;
+    }
+}
+
+/* /----------* @media *------------/  */
