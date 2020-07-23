@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
 @import url('https://fonts.googleapis.com/css?family=Jua&subset=korean');
 *{
-    /* border: solid 1px;     */
+    
     font-family: 'Noto Sans', sans-serif;
-
 }
 
 /* height 100vh */
@@ -537,6 +536,7 @@ h4.sm-title{
         }
     .word-box{
         width: 300px;
+        
     }
 }
 
